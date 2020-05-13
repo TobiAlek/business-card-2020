@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2C2141;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial;
+
+}
+
+.main {
+    background: #F8F8F8;
+    border-radius: 16px;
+    width: 624px;
+
+}
+
+main img {
+    max-height: 150px;
+    max-width: 150px;
+    margin: 16px;
+    padding: 32px;
+    margin-right: 24px;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+.person {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.person__description {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    padding: 10px;
+}
+
+.person__description--with-margin {
+    margin-bottom: 22px;
+}
+
+.person__info {
+    margin-bottom: 24px;
+}
+
+.person__name {
+    font-size: 36px;
+    margin: 0;
+    padding: 10px;
+    font-weight: normal;
+}
+
+.person__position {
+    font-size: 18px;
+    color: #545454;
+    margin: 0;
+    font-style: italic;
+}
+
+.person__link {
+    color: darkred;
+    text-decoration: none;
+
+}
+
+.special {
+    color: coral;
+    font-weight: normal;
+}
